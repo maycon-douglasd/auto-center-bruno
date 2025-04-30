@@ -333,6 +333,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     padding: 20px;
     background-color: #DC0000;
 }
@@ -376,6 +377,8 @@ span {
     transform: scale(1.1);
 }
 
+
+
 .creditos {
     display: flex;
     justify-content: center;
@@ -399,5 +402,22 @@ span {
 
 .creditos a:hover {
     color: #fff;
+    transform: scale(1.1);
+}
+
+.footer-whatsapp {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.footer-whatsapp a img {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.3s ease;
+    
+}
+
+.footer-whatsapp a img:hover {
     transform: scale(1.1);
 }
